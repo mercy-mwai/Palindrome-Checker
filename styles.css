@@ -7,3 +7,13 @@ h1{
 body{
     background-color: navy;
 }
+#text-input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    height: 10rem;
+
+}
