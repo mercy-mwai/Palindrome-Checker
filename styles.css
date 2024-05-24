@@ -1,4 +1,10 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+ main h1{
     text-align: center;
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
@@ -7,13 +13,19 @@ h1{
 body{
     background-color: navy;
 }
+main{
+    margin: auto;
+    margin-top: 200px;
+    width: 50%;
+    background-color: brown;
+    height: 10rem;
+}
 #text-input{
     width: 50%;
-    padding: 12px 20px;
-    margin: 0 auto;
     box-sizing: border-box;
-    border-radius: 10px;
-    border: 2px solid wheat;
-    height: 10rem;
+    height: 10px;
+    border-radius: 4px solid black;
+    padding: 12px 20px;
+    margin: 8px 0;
 
 }
