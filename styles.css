@@ -6,19 +6,19 @@
 }
  main h1{
     text-align: center;
-    color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
 }
 body{
-    background-color: navy;
+    background-color:rgb(216, 114, 114);
 }
 main{
     margin: auto;
     margin-top: 200px;
     width: 50%;
-    background-color: brown;
+    background-color: rgb(231, 193, 149);
     height: 10rem;
+    border-radius: 10px;
 }
 #text-input{
     width: 50%;
@@ -27,5 +27,16 @@ main{
     border-radius: 4px solid black;
     padding: 12px 20px;
     margin: 8px 0;
+    margin-left: 8em;
 
+}
+#check-btn{
+    display: block;
+    width: 1%;
+    margin: 1em auto;
+    height: 2em; 
+    font-size: 1.1em;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
 }
