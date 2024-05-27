@@ -9,15 +9,20 @@
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
 }
+body h1{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bolder;
+}
 body{
-    background-color:rgb(216, 114, 114);
+    background-color:rgb(231,193,149);
 }
 main{
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
     width: 50%;
-    background-color: rgb(231, 193, 149);
-    height: 10rem;
+    background-color: white;
+    height: 15rem;
     border-radius: 10px;
 }
 #text-input{
@@ -36,7 +41,14 @@ main{
     margin: 1em auto;
     height: 2em; 
     font-size: 1.1em;
-    background-color: #3b3b4f;
+    background-color: #5252ec;
     border-color: white;
     min-width: 300px;
+}
+#results{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5em;
+    font-weight: bolder;
+    font-size: medium;
+
 }
